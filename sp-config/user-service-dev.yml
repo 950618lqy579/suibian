@@ -6,6 +6,12 @@ spring:
   application:
     name: user-service
     
+    rabbitmq:
+      host: 192.168.216.131
+      port: 5672
+      username: admin
+      password: 123456    
+    
 server:
   port: 8101
   
